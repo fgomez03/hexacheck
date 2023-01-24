@@ -3,6 +3,4 @@ Python code to check if a 3D point (x,y,z) is in an hexaheron
 
 * point_is_in_hexa(point,centers,normals)
 
-The idea is simple, we compute the vectors for the point to each face center.
-Then we compute the dot product between the face normal and each vector.
-In order to be inside the hexaheron, all dot product must be <=0.
+The idea is simple, we calculate the vectors from the point to each face center. Next, we calculate the dot product between each normal/vector couple. To be inside the hexaheron, all dot products must be <=0.
